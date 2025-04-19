@@ -1,0 +1,73 @@
+ *{margin: 0;
+padding: 0;box-sizing: border-box;}
+ 
+ 
+ 
+ .box{
+    background-image: url(./Rectangle\ 18.png);
+background-size: 100%; width: 100%;height: 100vh;;
+display: flex; justify-content: center;
+align-items: center;
+
+
+}
+input{width: 362.4922790527344px;
+    height: 50.724178314208984px;
+    top: 388.58px;
+    left: 369.27px;
+    border-width: 1px;
+    border-radius: 9px;
+
+    }
+form{
+display: flex; flex-wrap: wrap;
+gap: 40px;
+justify-content: center;
+align-items: center;
+    }
+    .box div{width: 1180.2650146484375px;
+        height: 392.1844787597656px;
+        top: 276px;
+        left: 154px;
+        border-radius: 15px;
+        background: rgba(255, 255, 255, 1);
+        box-shadow: 0px 0px 35px 0px rgba(212, 20, 90, 0.25);}
+        h1{text-align: center;}
+        textarea{width: 749.72802734375px;
+            height: 81.65354919433594px;
+            top: 456.63px;
+            left: 369.27px;
+            border-width: 1px;
+            border-radius: 9px;
+            } button{width: 169.49298095703125px;
+                height: 42.06394958496094px;
+                top: 580.35px;
+                left: 655.06px;
+                border-radius: 9px;
+                background: linear-gradient(96.12deg, #D4145A -21.03%, #3D5BF5 103.56%);
+color: white; margin-left: 500px; margin-top: 20px ;                }
+@media(max-width:768px){
+.box{flex-direction: column; }
+form{flex-direction: column; flex-wrap: wrap;}
+
+    
+    }
+    @media(max-width:400px){
+.box{flex-direction: column; flex-wrap: wrap;}
+input{width: 212px;
+    height: 20px;
+    top: 195px;
+    left: 53px;
+    border-width: 1px;
+    border-radius: 9px;
+    }
+    textarea{width: 212px;
+        height: 95px;
+        top: 273px;
+        left: 53px;
+        border-width: 1px;
+        border-radius: 9px;
+        }
+
+
+    }
